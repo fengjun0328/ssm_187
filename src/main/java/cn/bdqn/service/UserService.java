@@ -1,5 +1,7 @@
 package cn.bdqn.service;
 
+import cn.bdqn.pojo.SmbmsUser;
+
 public interface UserService {
-    public User login(String userCode,String password);
+    public SmbmsUser login(String userCode, String password);
 }
